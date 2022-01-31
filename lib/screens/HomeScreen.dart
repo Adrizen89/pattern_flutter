@@ -10,15 +10,8 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child:
-      SingleChildScrollView(
-        child: Column(
-          children: [
-
-          ],
-        ),
-      ),
+    return Scaffold(
+      body: Container(),
     );
   }
 }
